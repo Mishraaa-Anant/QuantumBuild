@@ -19,8 +19,8 @@ export default class Renderer {
         });
 
         // Enable physically accurate lighting
-        this.renderer.physicallyCorrectLights = true;
-        this.renderer.outputEncoding = THREE.sRGBEncoding; // Ensure correct color space
+        this.renderer.physicallyCorrectLights = false;
+        this.renderer.outputColorSpace = THREE.SRGBColorSpace; // Ensure correct color space
         this.renderer.toneMapping = THREE.CineonToneMapping; // Set tone mapping for realistic output
         this.renderer.toneMappingExposure = 1.75; // Adjust exposure level
         this.renderer.shadowMap.enabled = true;
