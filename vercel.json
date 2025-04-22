@@ -1,6 +1,12 @@
 {
-    "buildCommand": "npm run build",
-    "installCommand": "npm install",
-    "framework": "vite",
-    "outputDirectory": "dist"
-  }
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "dist"
+      }
+    }
+  ]
+}
