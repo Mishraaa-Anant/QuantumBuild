@@ -18,7 +18,7 @@
      <div class="preloader">
       <div class="preloader-wrapper">
         <div class="loader"></div>
-        <div class="loadtext">NAMASTE USER🙏
+        <div class="loadtext">Wait For Few Minutes🙏
           <br>(⊙ Д ⊙)</div>
       </div>
      </div>
@@ -47,7 +47,7 @@
           <div class = "hero-wrapper">
 
             <!-- Preload -->
-            <div class="intro-text">Swipe Down<br>('• ω • `)</div>
+            <div class="intro-text">Swipe Down<br>(‘• ω • `)</div>
             <div class="arrow-svg-wrapper"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path fill="currentColor" d="M480-200 240-440l56-56 184 183 184-183 56 56-240 240Zm0-240L240-680l56-56 184 183 184-183 56 56-240 240Z"/></svg></div>
             <div class="hero-main">
               <h1 class="hero-main-title">QUANTUMBUILD</h1>
@@ -481,28 +481,6 @@ At Quantumbuild, we build intelligent digital solutions — from AI-powered apps
       </div>
     </div>
 
-    <!-- Added preloader timing script -->
-    <script>
-      document.addEventListener("DOMContentLoaded", function() {
-        // Get the preloader element
-        const preloader = document.querySelector(".preloader");
-        
-        // Make sure preloader is visible with full opacity at start
-        preloader.style.opacity = "1";
-        preloader.style.display = "flex";
-        
-        // Set timeout to hide preloader after 2.5 seconds (2500 milliseconds)
-        setTimeout(function() {
-          // Fade out the preloader
-          preloader.style.opacity = "0";
-          preloader.style.transition = "opacity 0.5s ease";
-          
-          // After the fade completes, hide the preloader completely
-          setTimeout(function() {
-            preloader.style.display = "none";
-          }, 500);
-        }, 2500); // 2.5 seconds
-      });
-    </script>
+    
   </body>
 </html>
